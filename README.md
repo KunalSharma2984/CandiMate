@@ -39,7 +39,6 @@ shows the source files used for that answer.
 ├── app.py                         # CandiMate Streamlit application
 ├── data/                          # Portfolio knowledge files
 │   ├── projects.md
-│   └── DEEPSC.md
 ├── portfolio_chatbot/
 │   ├── chat.py                    # Grounded answer generation
 │   ├── config.py                  # Environment configuration
