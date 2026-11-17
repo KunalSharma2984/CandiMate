@@ -1,0 +1,12 @@
+.env
+.chroma/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.streamlit/secrets.toml
+*.py[cod]
+.DS_Store
