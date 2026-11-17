@@ -28,7 +28,7 @@ def reset_chat() -> None:
 
 
 st.title("💼 CandiMate")
-st.caption("Your recruiter-friendly AI assistant, grounded in your resume and project write-ups.")
+st.caption("Your recruiter-friendly AI assistant, grounded in your portfolio knowledge files.")
 
 with st.sidebar:
     st.header("About CandiMate")
@@ -47,8 +47,7 @@ with st.sidebar:
     st.divider()
     st.markdown("**Customize it**")
     st.markdown(
-        "Replace the files in `data/` with your own resume and project notes, "
-        "then refresh the app."
+        "Add your resume and project notes to `data/`, then refresh the app."
     )
 
 if "messages" not in st.session_state:

@@ -37,8 +37,7 @@ shows the source files used for that answer.
 ```text
 .
 ├── app.py                         # CandiMate Streamlit application
-├── data/                          # Your resume and project write-ups
-│   ├── resume.pdf
+├── data/                          # Portfolio knowledge files
 │   ├── projects.md
 │   └── DEEPSC.md
 ├── portfolio_chatbot/
@@ -101,9 +100,10 @@ Only the selected provider's key is required.
 
 ## Customize the knowledge base
 
-1. Replace the files in `data/` with your own resume and project notes.
-2. Keep the resume as `.pdf`, `.md`, or `.txt`.
-3. Add project write-ups as additional `.md`, `.txt`, or `.pdf` files.
+1. Add your resume and project write-ups to `data/`.
+2. Use `.pdf`, `.md`, or `.txt` files.
+3. Add as many knowledge files as needed; filenames do not need to follow a
+   specific convention.
 4. Include your role, technical decisions, trade-offs, links, and measurable outcomes.
 5. Restart the app after editing.
 
